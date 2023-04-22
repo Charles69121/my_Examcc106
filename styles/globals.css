@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  
+}
+input{
+  margin-top: 30px;
+  background-color:skyblue;
+  margin-left: 550px;
+  padding: 10px;
+  text-align: center;
+}
+.btn{
+background-color: blue;
+color: white;
+padding: 10px;
+margin-left: 20px;
+}
+.nowServe{
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 40px;
+}
+.nowPrep{
+  background-color: black;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.flex{
+  display: flex;
+  text-align: center;
+  margin-left: 650px;
+}
